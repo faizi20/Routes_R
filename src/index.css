@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+:root {
+  --header: rgb(24, 24, 29);
+  --text: rgb(24, 24, 29);
+  --slate-color: #4d596a;
+  --black-color: #212529;
+  --white-color: #fff;
+  --helper: #8490ff;
+  --bg: rgb(249 249 255);
+  --footer_bg: #0a1435;
+  --btn: rgb(98, 84, 243);
+  --border: rgba(98, 84, 243, 0.5);
+  --hr: #ffffff;
+  --gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+  --shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  --shadowSupport: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  color: var(--header);
+}
+
+h2 {
+  font-size: 4.4rem;
+  font-weight: 300;
+  color: var(--header);
+  text-align: center;
+  white-space: normal;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.65rem;
+  opacity: 0.5;
+  line-height: 1.5;
+  margin-top: 1rem;
+  font-weight: 400;
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+nav.navbar.navbar-expand-lg {
+  height: 70px;
+}
+
+.btns {
+  text-decoration: none;
+  max-width: auto;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btns:hover,
+.btns-active {
+  box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%);
+  transform: scale(0.96);
+}
+
+.btns a {
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--btn);
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+}
+
+.section-hero-image img {
+  max-width: 80%;
+}
+
+.hero-para {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  max-width: 60rem;
+}
+
+.hero-top-data {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--helper);
+  margin-bottom: 0;
+}
+
+.hero-heading {
+  line-height: 1;
+}
+
+.section {
+  background-color: var(--bg);
+  padding: 3rem 0;
+}
+
+.section .card-data {
+  padding: 1rem 2rem 0;
+  height: 100%;
+}
+
+.section .card-data h3 {
+  margin: 2rem 0;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.section .card-data p {
+  font-size: 1.2rem;
+}
+
+.section .card {
+  height: 100%;
+}
+
+.section .card .card-data .btn {
+  margin: 2rem auto;
+  background-color: rgb(0 0 0 / 0%);
+  border: 0.1rem solid var(--btn);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.section .card .card-data .btn:hover {
+  background-color: var(--btn);
+  color: var(--white-color);
+}
+
+.section .common-heading {
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+}
+
+.navbar-light .navbar-nav .customInActive {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.navbar-light .navbar-nav .customActive {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.customInActive,
+.customActive {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
