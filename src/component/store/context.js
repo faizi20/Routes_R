@@ -5,7 +5,7 @@ import About1 from "../../assets/about1.svg";
 
 const AppContext = createContext();
 
-const API = "https://jsonplaceholder.typicode.com/posts";
+const API = "https://jsonplaceholder.typicode.com/posts?_start=0&_limit=9";
 
 const initialState = {
   name: "",

@@ -1,5 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import HeroSection from "./HeroSection";
+import Service from "./Service";
+import Contact from "./Contact";
 import { AppContext } from "../store/context";
 
 function Home() {
@@ -14,7 +16,13 @@ function Home() {
     updateHomePage();
   });
 
-  return <HeroSection />;
+  return (
+    <>
+      <HeroSection />
+      <Service />
+      <Contact />
+    </>
+  );
 }
 
 export default Home;

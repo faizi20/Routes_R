@@ -13,7 +13,7 @@ function Service() {
           {service.map((currElm) => {
             const { id, title, body } = currElm;
             return (
-              <div className="col-md-4 mb-4">
+              <div className="col-lg-4 col-md-6 mb-4">
                 <div key={id} className="card">
                   <div className="card-data">
                     <h3>{title}</h3>
