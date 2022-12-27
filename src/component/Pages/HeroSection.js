@@ -15,9 +15,11 @@ function HeroSection() {
               <h1 className="hero-heading">{name}</h1>
               <p className="hero-para">I'm {name}. A Frontend Developer</p>
             </div>
-            <Button className="btn hire-btn">
-              <NavLink to="/contact">Hire Me</NavLink>
-            </Button>
+            <div className="btn-center">
+              <Button className="btn hire-btn">
+                <NavLink to="/contact">Hire Me</NavLink>
+              </Button>
+            </div>
           </div>
           <div className="col-md-6">
             <div className="section-hero-image text-center">

@@ -47,17 +47,17 @@ function Footer() {
             <div className="col-lg-3 col-md-6">
               <h3>Follow Us</h3>
               <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4 col-3">
                   <NavLink to="/">
                     <i class="fab fa-discord icons"></i>
                   </NavLink>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 col-3">
                   <NavLink to="/">
                     <i class="fab fa-instagram icons"></i>
                   </NavLink>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 col-3">
                   <NavLink to="/">
                     <i class="fab fa-youtube icons"></i>
                   </NavLink>
@@ -66,7 +66,7 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-6">
               <h3>Call Us</h3>
-              <h3>+92 963258741</h3>
+              <h4>+92 963258741</h4>
             </div>
           </div>
           <hr />

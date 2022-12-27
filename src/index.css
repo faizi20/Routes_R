@@ -199,7 +199,6 @@ input[type="submit"] {
   color: var(--white-color);
   padding: 1rem 2rem;
   font-size: 1.2rem;
-  cursor: pointer;
   text-transform: uppercase;
   transition: all 0.2s;
 }
@@ -238,9 +237,13 @@ footer h3 {
   font-size: 1.5rem;
 }
 
+footer h4 {
+  color: var(--hr);
+}
+
 footer p {
   color: var(--white-color);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 footer .icons {
@@ -258,7 +261,6 @@ footer .icons {
 footer hr {
   margin: 4rem 0 2rem;
   background-color: var(--white-color);
-  height: 0.1px;
 }
 
 .top-btn {
@@ -307,4 +309,110 @@ footer hr {
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .section-hero-data,
+  .btn-center {
+    text-align: center;
+  }
+  .contact .common-heading {
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .section .card-data h3 {
+    margin: 2rem 0 1.2rem;
+    font-size: 1.5rem;
+  }
+
+  .section .card-data p {
+    font-size: 1rem;
+  }
+
+  footer p {
+    margin-bottom: 0;
+  }
+
+  footer h4 {
+    font-size: 1.1rem;
+  }
+
+  .section .card-data {
+    text-align: center;
+  }
+
+  footer h3 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-top-data {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  .btns a,
+  .btns {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 7rem 0 3rem;
+  }
+
+  footer .icons {
+    width: 40px;
+    font-size: 1.3rem;
+    height: 40px;
+  }
+
+  .section-hero-image img {
+    max-width: 100%;
+  }
+  .section-hero-image {
+    margin-top: 40px;
+  }
+  .hero-para {
+    margin-bottom: 2rem;
+  }
+  .top-btn {
+    font-size: 1.2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  .contact .contact-form {
+    padding: 0 15px;
+  }
+  .contact-short {
+    max-width: 92vw;
+    padding: 1rem;
+  }
+
+  footer hr {
+    margin: 2rem 0 1rem;
+  }
+
+  input[type="submit"] {
+    max-width: 8rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
 }

@@ -6,7 +6,7 @@ function Service() {
   const { service } = useContext(AppContext);
   console.log(service);
   return (
-    <div className="section">
+    <section className="section">
       <h2 className="common-heading">Our Service</h2>
       <div className="container">
         <div className="row">
@@ -28,7 +28,7 @@ function Service() {
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
